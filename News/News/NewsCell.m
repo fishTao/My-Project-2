@@ -14,12 +14,14 @@
 -(void)setDic:(NSDictionary *)dic{
 
     
-    self.titleLabel.text=dic[@"title"];
-    self.areaLabel.text=dic[@"community"];
-    self.quLabel.text=dic[@"simpleadd"];
-    self.typeLabel.text=dic[@"housetype"];
-    NSInteger price=[dic[@"price"] integerValue];
-    self.priceLabel.text=[NSString stringWithFormat:@"%ld元",price];
+    self.name.text=dic[@"author"][@"name"];
+    self.title.text=dic[@"title"];
+
+    NSInteger read = [dic[@"readnum"] integerValue];
+    self.read.text = [NSString stringWithFormat:@"阅读%ld",read];
+
+    NSInteger reply = [dic [@"replynum"]integerValue];
+    self.reply.text = [NSString stringWithFormat:@"弹幕%ld",reply];
     
     _dic=dic;
 }

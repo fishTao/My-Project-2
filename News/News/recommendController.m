@@ -8,6 +8,7 @@
 
 #import "recommendController.h"
 #import "AFNetworking.h"
+
 #import "NewsCell.h"
 #import "Header.h"
 
@@ -17,6 +18,8 @@
 @interface recommendController ()<UITableViewDataSource,UITableViewDelegate>
 
 @property (nonatomic ,strong) UITableView *myTable;
+@property (nonatomic ,strong) UIView *uiView;
+@property (nonatomic ,strong) UIScrollView *scrollView;
 
 @property (nonatomic ,strong) NSMutableArray *array;
 @end
@@ -35,23 +38,30 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+ 
+    //请求数据
+    [self requestNews];
+    
     //导航栏设为不透明
     self.navigationController.navigationBar.translucent = NO;
     
-
+    _uiView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 160)];
+    _uiView.backgroundColor = [UIColor grayColor];
+    
     _myTable = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) style:UITableViewStylePlain];
     
     _myTable.delegate = self;
     _myTable.dataSource = self;
-    _myTable.rowHeight = 100;
-
+    _myTable.rowHeight = 150;
+    
+    _myTable.tableHeaderView = _uiView;
     
     [self.view addSubview:_myTable];
     
-    //请求数据
-    [self requestNews];
     
+    
+    _scrollView = [[UIScrollView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 160)];
+ 
     
     // Do any additional setup after loading the view.
 }
@@ -60,38 +70,42 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return  _array.count;
+    return  self.array.count;
 
 }
 
--(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    NewsCell *cell=[tableView dequeueReusableCellWithIdentifier:@"cell"];
-    if (cell==nil) {
-        cell=[[NSBundle mainBundle] loadNibNamed:@"NewsCell" owner:self options:nil][0];
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    NewsCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
+    
+    if (cell == nil) {
+        cell = [[NSBundle mainBundle]loadNibNamed:@"NewsCell" owner:self options:nil][0];
     }
-    cell.dic=self.array[indexPath.row];
+    
+    cell.dic = _array[indexPath.row];
+    
     return cell;
 }
 #pragma mark    ================网络请求======================
 - (void)requestNews{
     
     AFHTTPSessionManager *manager=[AFHTTPSessionManager manager];
-    NSString *value=@"{\"commandcode\":108,\"REQUEST_BODY\":{\"city\":\"昆明\",\"desc\":\"0\" ,\"p\":1,\"lat\":24.973079315636,\"lng\":102.69840055824}}";
-
+    //    NSString *value=@"";
     //设置响应序列化
     manager.responseSerializer=[AFHTTPResponseSerializer serializer];
     
     //设置参数
-        NSDictionary *prameter=@{@"HEAD_INFO":value};
-    [manager GET:baseURl parameters:prameter progress:nil success:^(NSURLSessionDataTask * task, id  responseObject) {
+    //    NSDictionary *prameter=@{@"application/json":value};
+    [manager GET:baseURl parameters:nil progress:nil success:^(NSURLSessionDataTask * task, id  responseObject) {
         NSLog(@"======%@",responseObject);
         //json解析
         NSDictionary *dic=[NSJSONSerialization JSONObjectWithData:responseObject options:NSJSONReadingAllowFragments error:nil];
         NSLog(@"====%@",dic);
         
-        NSArray *temp=dic[@"RESPONSE_BODY"][@"list"];
+        NSMutableArray *arr = dic[@"data"][@"list"];
+    
         //赋值
-        [self.array addObjectsFromArray:temp];
+        [self.array addObjectsFromArray:arr];
         //刷新Ui
         [_myTable reloadData];
         

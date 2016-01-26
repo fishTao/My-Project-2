@@ -10,8 +10,7 @@
 #define Header_h
 
 //请求的url
-#define baseURl @"http://www.fungpu.com/houseapp/apprq.do?"
-
+#define baseURl @"http://api.app.happyjuzi.com/v2.8.2/article/list/home?"
 
 
 #endif /* Header_h */
