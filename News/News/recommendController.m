@@ -8,7 +8,6 @@
 
 #import "recommendController.h"
 #import "AFNetworking.h"
-
 #import "NewsCell.h"
 #import "Header.h"
 
@@ -83,7 +82,7 @@
     }
     
     cell.dic = _array[indexPath.row];
-    
+  
     return cell;
 }
 #pragma mark    ================网络请求======================

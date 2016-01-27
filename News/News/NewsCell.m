@@ -7,13 +7,16 @@
 //
 
 #import "NewsCell.h"
-
+#import "UIImageView+WebCache.h"
 @implementation NewsCell
 
 
 -(void)setDic:(NSDictionary *)dic{
 
-    
+    NSString *string =dic[@"pic"];
+    NSArray *arr =  [string componentsSeparatedByString:@"!"];
+    NSURL *url = arr[0];
+    [self.img sd_setImageWithURL:url];
     self.name.text=dic[@"author"][@"name"];
     self.title.text=dic[@"title"];
 
