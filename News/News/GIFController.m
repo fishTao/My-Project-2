@@ -18,6 +18,9 @@
 @property (nonatomic ,strong) UITableView *myTable;
 
 @property (nonatomic ,strong) NSMutableArray *array;
+@property (nonatomic ,strong) UIRefreshControl *refreshControl;
+
+
 @end
 
 @implementation GIFController
@@ -32,9 +35,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    
-    
-    
+
+
+
     //请求数据
     [self requestNews];
     
@@ -47,8 +50,16 @@
     [self.view addSubview:_myTable];
     
 
-
-    // Do any additional setup after loading the view.
+    
+    //=====添加下来刷新的控件
+    _refreshControl=[[UIRefreshControl alloc] init];
+    _refreshControl.attributedTitle=[[NSAttributedString alloc] initWithString:@"下拉刷新..."];
+    [_refreshControl addTarget:self action:@selector(changValue:) forControlEvents:UIControlEventValueChanged];
+    //添加tableview
+    [_myTable addSubview:_refreshControl];
+    
+    
+       // Do any additional setup after loading the view.
 }
 //没网络时候调用此方法
 -(void)error{
@@ -81,6 +92,9 @@
     return cell;
 }
 
+
+
+
 #pragma mark    ================网络请求======================
 - (void)requestNews{
     
@@ -103,11 +117,24 @@
         [self.array addObjectsFromArray:arr];
         //刷新Ui
         [_myTable reloadData];
+  
         
+        
+//        //=刷新后调用停止的方法
+//        [_refreshControl endRefreshing];
+        //设置刷新到停止的时间
+        [_refreshControl performSelector:@selector(endRefreshing) withObject:nil afterDelay:4];
+        
+
         
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         NSLog(@"=======%@",error);
         
+//        //请求失败
+//        //请求失败也要调用此方法，设置刷新时间
+//        [_refreshControl endRefreshing];
+//        [self performSelector:@selector(endRefreshing) withObject:nil afterDelay:1];
+
         [self error];
         
     }];
@@ -115,6 +142,22 @@
     
 }
 
+//=========下拉刷新
+-(void)endRefresh{
+    _refreshControl.attributedTitle=[[NSAttributedString alloc] initWithString:@"下拉刷新..."];
+}
+
+//=========正在加载
+-(void)changValue:(UIRefreshControl *)control{
+    if (control.isRefreshing) {
+        control.attributedTitle=[[NSAttributedString alloc] initWithString:@"正在加载..."];
+        //执行网络请求
+        [self requestNews];
+    }else{
+        
+        
+    }
+}
 
 
 - (void)didReceiveMemoryWarning {
