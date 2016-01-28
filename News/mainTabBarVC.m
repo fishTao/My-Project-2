@@ -17,10 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     //设置tabBar颜色
-    self.tabBar.tintColor = [UIColor brownColor];
-
-    //设置默认显示
+//    self.tabBar.tintColor = [UIColor orangeColor];
+    self.tabBar.tintColor = [UIColor colorWithRed:62.0/255.0  green:114.0/255.0 blue:224.0/255.0 alpha:1.0];
+    self.tabBarItem.image = [UIImage imageNamed:@"1.png"];    //设置默认显示
     self.selectedIndex = 2;
+    
     
     // Do any additional setup after loading the view.
 }

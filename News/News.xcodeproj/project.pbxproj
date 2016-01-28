@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC37EFD01C5A162000F8C6C7 /* a.png in Resources */ = {isa = PBXBuildFile; fileRef = CC37EFCD1C5A162000F8C6C7 /* a.png */; };
+		CC37EFD11C5A162000F8C6C7 /* b.png in Resources */ = {isa = PBXBuildFile; fileRef = CC37EFCE1C5A162000F8C6C7 /* b.png */; };
+		CC37EFD21C5A162000F8C6C7 /* c.png in Resources */ = {isa = PBXBuildFile; fileRef = CC37EFCF1C5A162000F8C6C7 /* c.png */; };
+		CC37EFD41C5A169500F8C6C7 /* gifCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC37EFD31C5A169500F8C6C7 /* gifCell.xib */; };
+		CC37EFD61C5A1A5900F8C6C7 /* 视频.png in Resources */ = {isa = PBXBuildFile; fileRef = CC37EFD51C5A1A5900F8C6C7 /* 视频.png */; };
+		CC3E901D1C58AA0A0058B0F0 /* SecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3E901B1C58AA0A0058B0F0 /* SecondVC.m */; };
+		CC3E901E1C58AA0A0058B0F0 /* SecondVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC3E901C1C58AA0A0058B0F0 /* SecondVC.xib */; };
+		CC3E90271C58BC720058B0F0 /* 资讯1.png in Resources */ = {isa = PBXBuildFile; fileRef = CC3E90251C58BC720058B0F0 /* 资讯1.png */; };
+		CC3E90281C58BC720058B0F0 /* 资讯2.png in Resources */ = {isa = PBXBuildFile; fileRef = CC3E90261C58BC720058B0F0 /* 资讯2.png */; };
+		CC3E902C1C58BD870058B0F0 /* 推荐1.png in Resources */ = {isa = PBXBuildFile; fileRef = CC3E902B1C58BD870058B0F0 /* 推荐1.png */; };
+		CC3E902E1C58BDBD0058B0F0 /* 设置.png in Resources */ = {isa = PBXBuildFile; fileRef = CC3E902D1C58BDBD0058B0F0 /* 设置.png */; };
+		CC3E90301C58BF0E0058B0F0 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = CC3E902F1C58BF0E0058B0F0 /* 1.png */; };
+		CC3E903E1C58C5E40058B0F0 /* ME.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3E903D1C58C5E40058B0F0 /* ME.m */; };
+		CC3E90421C58ECE50058B0F0 /* 动态.png in Resources */ = {isa = PBXBuildFile; fileRef = CC3E90411C58ECE50058B0F0 /* 动态.png */; };
+		CC3E90461C58ED730058B0F0 /* GIFController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3E90451C58ED730058B0F0 /* GIFController.m */; };
+		CC3E904A1C58EDAE0058B0F0 /* gifCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3E90481C58EDAE0058B0F0 /* gifCell.m */; };
 		CCB777231C5747E50032247F /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB777031C5747E50032247F /* MKAnnotationView+WebCache.m */; };
 		CCB777241C5747E50032247F /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB777051C5747E50032247F /* NSData+ImageContentType.m */; };
 		CCB777251C5747E50032247F /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB777071C5747E50032247F /* SDImageCache.m */; };
@@ -32,8 +48,6 @@
 		CCCDC8CD1C530DD3006C946B /* NewsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCDC8CC1C530DD3006C946B /* NewsUITests.m */; };
 		CCCDC8DF1C531E36006C946B /* mainTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCDC8DE1C531E36006C946B /* mainTabBarVC.m */; };
 		CCCDC8E61C5328AE006C946B /* recommendController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCDC8E51C5328AE006C946B /* recommendController.m */; };
-		CCCDC8E91C5328C5006C946B /* PhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCDC8E81C5328C5006C946B /* PhoneViewController.m */; };
-		CCCDC8EC1C5328CD006C946B /* CarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCDC8EB1C5328CD006C946B /* CarViewController.m */; };
 		CCCDC8EF1C5328E3006C946B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCDC8EE1C5328E3006C946B /* MainViewController.m */; };
 		CCCDC8F31C532FC6006C946B /* Modes.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCDC8F21C532FC6006C946B /* Modes.m */; };
 		CCCDC90F1C535BA6006C946B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCCDC8F51C535BA6006C946B /* Info.plist */; };
@@ -75,6 +89,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC37EFCD1C5A162000F8C6C7 /* a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a.png; sourceTree = "<group>"; };
+		CC37EFCE1C5A162000F8C6C7 /* b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b.png; sourceTree = "<group>"; };
+		CC37EFCF1C5A162000F8C6C7 /* c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c.png; sourceTree = "<group>"; };
+		CC37EFD31C5A169500F8C6C7 /* gifCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = gifCell.xib; sourceTree = "<group>"; };
+		CC37EFD51C5A1A5900F8C6C7 /* 视频.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "视频.png"; sourceTree = "<group>"; };
+		CC3E901A1C58AA0A0058B0F0 /* SecondVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondVC.h; sourceTree = "<group>"; };
+		CC3E901B1C58AA0A0058B0F0 /* SecondVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondVC.m; sourceTree = "<group>"; };
+		CC3E901C1C58AA0A0058B0F0 /* SecondVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondVC.xib; sourceTree = "<group>"; };
+		CC3E90251C58BC720058B0F0 /* 资讯1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "资讯1.png"; sourceTree = "<group>"; };
+		CC3E90261C58BC720058B0F0 /* 资讯2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "资讯2.png"; sourceTree = "<group>"; };
+		CC3E902B1C58BD870058B0F0 /* 推荐1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "推荐1.png"; sourceTree = "<group>"; };
+		CC3E902D1C58BDBD0058B0F0 /* 设置.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "设置.png"; sourceTree = "<group>"; };
+		CC3E902F1C58BF0E0058B0F0 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		CC3E903C1C58C5E40058B0F0 /* ME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ME.h; sourceTree = "<group>"; };
+		CC3E903D1C58C5E40058B0F0 /* ME.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ME.m; sourceTree = "<group>"; };
+		CC3E90411C58ECE50058B0F0 /* 动态.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "动态.png"; sourceTree = "<group>"; };
+		CC3E90441C58ED730058B0F0 /* GIFController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIFController.h; sourceTree = "<group>"; };
+		CC3E90451C58ED730058B0F0 /* GIFController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIFController.m; sourceTree = "<group>"; };
+		CC3E90471C58EDAE0058B0F0 /* gifCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gifCell.h; sourceTree = "<group>"; };
+		CC3E90481C58EDAE0058B0F0 /* gifCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gifCell.m; sourceTree = "<group>"; };
 		CCB777021C5747E50032247F /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
 		CCB777031C5747E50032247F /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
 		CCB777041C5747E50032247F /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
@@ -126,10 +160,6 @@
 		CCCDC8DE1C531E36006C946B /* mainTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = mainTabBarVC.m; path = ../mainTabBarVC.m; sourceTree = "<group>"; };
 		CCCDC8E41C5328AE006C946B /* recommendController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = recommendController.h; sourceTree = "<group>"; };
 		CCCDC8E51C5328AE006C946B /* recommendController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = recommendController.m; sourceTree = "<group>"; };
-		CCCDC8E71C5328C5006C946B /* PhoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneViewController.h; sourceTree = "<group>"; };
-		CCCDC8E81C5328C5006C946B /* PhoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneViewController.m; sourceTree = "<group>"; };
-		CCCDC8EA1C5328CD006C946B /* CarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarViewController.h; sourceTree = "<group>"; };
-		CCCDC8EB1C5328CD006C946B /* CarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarViewController.m; sourceTree = "<group>"; };
 		CCCDC8ED1C5328E3006C946B /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		CCCDC8EE1C5328E3006C946B /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		CCCDC8F01C532A07006C946B /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
@@ -204,6 +234,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC3E901F1C58BB970058B0F0 /* 素材 */ = {
+			isa = PBXGroup;
+			children = (
+				CC3E902F1C58BF0E0058B0F0 /* 1.png */,
+				CC3E90201C58BBA00058B0F0 /* 图标 */,
+			);
+			name = "素材";
+			sourceTree = "<group>";
+		};
+		CC3E90201C58BBA00058B0F0 /* 图标 */ = {
+			isa = PBXGroup;
+			children = (
+				CC37EFCD1C5A162000F8C6C7 /* a.png */,
+				CC37EFCE1C5A162000F8C6C7 /* b.png */,
+				CC37EFCF1C5A162000F8C6C7 /* c.png */,
+				CC37EFD51C5A1A5900F8C6C7 /* 视频.png */,
+				CC3E90411C58ECE50058B0F0 /* 动态.png */,
+				CC3E90251C58BC720058B0F0 /* 资讯1.png */,
+				CC3E90261C58BC720058B0F0 /* 资讯2.png */,
+				CC3E902B1C58BD870058B0F0 /* 推荐1.png */,
+				CC3E902D1C58BDBD0058B0F0 /* 设置.png */,
+			);
+			name = "图标";
+			sourceTree = "<group>";
+		};
+		CC3E90211C58BBAC0058B0F0 /* 推荐 */ = {
+			isa = PBXGroup;
+			children = (
+				CCCDC8E41C5328AE006C946B /* recommendController.h */,
+				CCCDC8E51C5328AE006C946B /* recommendController.m */,
+				CC3E901A1C58AA0A0058B0F0 /* SecondVC.h */,
+				CC3E901B1C58AA0A0058B0F0 /* SecondVC.m */,
+				CC3E901C1C58AA0A0058B0F0 /* SecondVC.xib */,
+				CCCDC92E1C53A3F6006C946B /* NewsCell.h */,
+				CCCDC92F1C53A3F6006C946B /* NewsCell.m */,
+				CCCDC9301C53A3F6006C946B /* NewsCell.xib */,
+			);
+			name = "推荐";
+			sourceTree = "<group>";
+		};
+		CC3E90221C58BBD40058B0F0 /* 每日资讯 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "每日资讯";
+			sourceTree = "<group>";
+		};
+		CC3E90431C58ED5A0058B0F0 /* GIF动画 */ = {
+			isa = PBXGroup;
+			children = (
+				CC3E90441C58ED730058B0F0 /* GIFController.h */,
+				CC3E90451C58ED730058B0F0 /* GIFController.m */,
+				CC3E90471C58EDAE0058B0F0 /* gifCell.h */,
+				CC3E90481C58EDAE0058B0F0 /* gifCell.m */,
+				CC37EFD31C5A169500F8C6C7 /* gifCell.xib */,
+			);
+			name = "GIF动画";
+			sourceTree = "<group>";
+		};
 		CCB777011C5747E50032247F /* SDWebImage */ = {
 			isa = PBXGroup;
 			children = (
@@ -288,6 +377,7 @@
 		CCCDC8A71C530DD3006C946B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CC3E901F1C58BB970058B0F0 /* 素材 */,
 				CCCDC8A81C530DD3006C946B /* main.m */,
 			);
 			name = "Supporting Files";
@@ -325,6 +415,8 @@
 			isa = PBXGroup;
 			children = (
 				CCCDC8B01C530DD3006C946B /* Main.storyboard */,
+				CC3E903C1C58C5E40058B0F0 /* ME.h */,
+				CC3E903D1C58C5E40058B0F0 /* ME.m */,
 			);
 			name = view;
 			sourceTree = "<group>";
@@ -332,15 +424,9 @@
 		CCCDC8E31C5322AB006C946B /* controller */ = {
 			isa = PBXGroup;
 			children = (
-				CCCDC8E41C5328AE006C946B /* recommendController.h */,
-				CCCDC8E51C5328AE006C946B /* recommendController.m */,
-				CCCDC92E1C53A3F6006C946B /* NewsCell.h */,
-				CCCDC92F1C53A3F6006C946B /* NewsCell.m */,
-				CCCDC9301C53A3F6006C946B /* NewsCell.xib */,
-				CCCDC8E71C5328C5006C946B /* PhoneViewController.h */,
-				CCCDC8E81C5328C5006C946B /* PhoneViewController.m */,
-				CCCDC8EB1C5328CD006C946B /* CarViewController.m */,
-				CCCDC8EA1C5328CD006C946B /* CarViewController.h */,
+				CC3E90431C58ED5A0058B0F0 /* GIF动画 */,
+				CC3E90221C58BBD40058B0F0 /* 每日资讯 */,
+				CC3E90211C58BBAC0058B0F0 /* 推荐 */,
 				CCCDC8ED1C5328E3006C946B /* MainViewController.h */,
 				CCCDC8EE1C5328E3006C946B /* MainViewController.m */,
 			);
@@ -503,11 +589,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC37EFD21C5A162000F8C6C7 /* c.png in Resources */,
+				CC3E90421C58ECE50058B0F0 /* 动态.png in Resources */,
+				CC37EFD41C5A169500F8C6C7 /* gifCell.xib in Resources */,
+				CC3E90301C58BF0E0058B0F0 /* 1.png in Resources */,
+				CC37EFD61C5A1A5900F8C6C7 /* 视频.png in Resources */,
 				CCCDC90F1C535BA6006C946B /* Info.plist in Resources */,
 				CCCDC8B71C530DD3006C946B /* LaunchScreen.storyboard in Resources */,
+				CC3E90271C58BC720058B0F0 /* 资讯1.png in Resources */,
+				CC37EFD01C5A162000F8C6C7 /* a.png in Resources */,
 				CCCDC9321C53A3F6006C946B /* NewsCell.xib in Resources */,
 				CCCDC8B41C530DD3006C946B /* Assets.xcassets in Resources */,
+				CC3E902E1C58BDBD0058B0F0 /* 设置.png in Resources */,
+				CC3E901E1C58AA0A0058B0F0 /* SecondVC.xib in Resources */,
+				CC3E902C1C58BD870058B0F0 /* 推荐1.png in Resources */,
+				CC37EFD11C5A162000F8C6C7 /* b.png in Resources */,
 				CCCDC8B21C530DD3006C946B /* Main.storyboard in Resources */,
+				CC3E90281C58BC720058B0F0 /* 资讯2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,10 +630,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC3E90461C58ED730058B0F0 /* GIFController.m in Sources */,
 				CCCDC8E61C5328AE006C946B /* recommendController.m in Sources */,
 				CCB777321C5747E50032247F /* UIView+WebCacheOperation.m in Sources */,
 				CCCDC9281C535BC1006C946B /* AFHTTPSessionManager.m in Sources */,
 				CCB777311C5747E50032247F /* UIImageView+WebCache.m in Sources */,
+				CC3E901D1C58AA0A0058B0F0 /* SecondVC.m in Sources */,
 				CCCDC9291C535BC1006C946B /* AFNetworkReachabilityManager.m in Sources */,
 				CCCDC8AC1C530DD3006C946B /* AppDelegate.m in Sources */,
 				CCB777241C5747E50032247F /* NSData+ImageContentType.m in Sources */,
@@ -543,9 +643,9 @@
 				CCCDC8EF1C5328E3006C946B /* MainViewController.m in Sources */,
 				CCB7772C1C5747E50032247F /* UIButton+WebCache.m in Sources */,
 				CCB7772B1C5747E50032247F /* SDWebImagePrefetcher.m in Sources */,
-				CCCDC8E91C5328C5006C946B /* PhoneViewController.m in Sources */,
 				CCCDC92B1C535BC1006C946B /* AFURLRequestSerialization.m in Sources */,
 				CCCDC92A1C535BC1006C946B /* AFSecurityPolicy.m in Sources */,
+				CC3E904A1C58EDAE0058B0F0 /* gifCell.m in Sources */,
 				CCB777301C5747E50032247F /* UIImageView+HighlightedWebCache.m in Sources */,
 				CCCDC92D1C535BC1006C946B /* AFURLSessionManager.m in Sources */,
 				CCCDC9181C535BA6006C946B /* View+MASAdditions.m in Sources */,
@@ -559,7 +659,7 @@
 				CCCDC8F31C532FC6006C946B /* Modes.m in Sources */,
 				CCB7772E1C5747E50032247F /* UIImage+MultiFormat.m in Sources */,
 				CCB777291C5747E50032247F /* SDWebImageDownloaderOperation.m in Sources */,
-				CCCDC8EC1C5328CD006C946B /* CarViewController.m in Sources */,
+				CC3E903E1C58C5E40058B0F0 /* ME.m in Sources */,
 				CCCDC9311C53A3F6006C946B /* NewsCell.m in Sources */,
 				CCCDC9121C535BA6006C946B /* MASConstraintMaker.m in Sources */,
 				CCCDC9191C535BA6006C946B /* ViewController+MASAdditions.m in Sources */,
@@ -712,7 +812,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = News/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qingyun.News;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -724,7 +824,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = News/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qingyun.News;
 				PRODUCT_NAME = "$(TARGET_NAME)";
