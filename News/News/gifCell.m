@@ -14,14 +14,18 @@
 
 -(void)setDic:(NSDictionary *)dic{
     
+    self.title.text=dic[@"title"];
+    self.name.text = dic[@"author"][@"name"];
+    
+    
     NSString *string =dic[@"gif"][0][@"pic"];
     NSArray *arr =  [string componentsSeparatedByString:@"!"];
     NSURL *url = arr[0];
 
-    [self.gif sd_setImageWithURL:url];
-    self.title.text=dic[@"title"];
-    self.name.text = dic[@"author"][@"name"];
-    _dic=dic;
+    [self.gif sd_setImageWithURL:url placeholderImage:[UIImage imageNamed:@"加载1.gif"]];
+
+//    [self.gif sd_setImageWithURL:url];
+        _dic=dic;
 }
 
 

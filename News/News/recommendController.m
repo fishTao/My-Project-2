@@ -63,15 +63,21 @@
     _scrollView = [[UIScrollView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 160)];
  
     
-    
-    
-    
-    
-    
+ 
     
       // Do any additional setup after loading the view.
 }
 
+
+//没网络时候调用此方法
+-(void)error{
+    
+    UILabel *lab = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
+    lab.text = @"加载失败，请检查网络连接...";
+    lab.textAlignment = NSTextAlignmentCenter;
+    [self.view addSubview:lab];
+    
+}
 #pragma mark ==================TableView  DataSource=====================
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -134,6 +140,8 @@
         
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         NSLog(@"=======%@",error);
+        
+        [self error];
     }];
     
     

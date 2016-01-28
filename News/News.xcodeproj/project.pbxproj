@@ -12,6 +12,9 @@
 		CC37EFD21C5A162000F8C6C7 /* c.png in Resources */ = {isa = PBXBuildFile; fileRef = CC37EFCF1C5A162000F8C6C7 /* c.png */; };
 		CC37EFD41C5A169500F8C6C7 /* gifCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC37EFD31C5A169500F8C6C7 /* gifCell.xib */; };
 		CC37EFD61C5A1A5900F8C6C7 /* 视频.png in Resources */ = {isa = PBXBuildFile; fileRef = CC37EFD51C5A1A5900F8C6C7 /* 视频.png */; };
+		CC37EFDA1C5A32D200F8C6C7 /* iconfont-bubble.png in Resources */ = {isa = PBXBuildFile; fileRef = CC37EFD71C5A32D200F8C6C7 /* iconfont-bubble.png */; };
+		CC37EFDB1C5A32D200F8C6C7 /* iconfont-cloudcheck.png in Resources */ = {isa = PBXBuildFile; fileRef = CC37EFD81C5A32D200F8C6C7 /* iconfont-cloudcheck.png */; };
+		CC37EFDC1C5A32D200F8C6C7 /* iconfont-download.png in Resources */ = {isa = PBXBuildFile; fileRef = CC37EFD91C5A32D200F8C6C7 /* iconfont-download.png */; };
 		CC3E901D1C58AA0A0058B0F0 /* SecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3E901B1C58AA0A0058B0F0 /* SecondVC.m */; };
 		CC3E901E1C58AA0A0058B0F0 /* SecondVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC3E901C1C58AA0A0058B0F0 /* SecondVC.xib */; };
 		CC3E90271C58BC720058B0F0 /* 资讯1.png in Resources */ = {isa = PBXBuildFile; fileRef = CC3E90251C58BC720058B0F0 /* 资讯1.png */; };
@@ -23,6 +26,7 @@
 		CC3E90421C58ECE50058B0F0 /* 动态.png in Resources */ = {isa = PBXBuildFile; fileRef = CC3E90411C58ECE50058B0F0 /* 动态.png */; };
 		CC3E90461C58ED730058B0F0 /* GIFController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3E90451C58ED730058B0F0 /* GIFController.m */; };
 		CC3E904A1C58EDAE0058B0F0 /* gifCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3E90481C58EDAE0058B0F0 /* gifCell.m */; };
+		CC85FAF51C5A46F8006A2C6A /* 加载1.gif in Resources */ = {isa = PBXBuildFile; fileRef = CC85FAF21C5A46F8006A2C6A /* 加载1.gif */; };
 		CCB777231C5747E50032247F /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB777031C5747E50032247F /* MKAnnotationView+WebCache.m */; };
 		CCB777241C5747E50032247F /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB777051C5747E50032247F /* NSData+ImageContentType.m */; };
 		CCB777251C5747E50032247F /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB777071C5747E50032247F /* SDImageCache.m */; };
@@ -94,6 +98,9 @@
 		CC37EFCF1C5A162000F8C6C7 /* c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c.png; sourceTree = "<group>"; };
 		CC37EFD31C5A169500F8C6C7 /* gifCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = gifCell.xib; sourceTree = "<group>"; };
 		CC37EFD51C5A1A5900F8C6C7 /* 视频.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "视频.png"; sourceTree = "<group>"; };
+		CC37EFD71C5A32D200F8C6C7 /* iconfont-bubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-bubble.png"; sourceTree = "<group>"; };
+		CC37EFD81C5A32D200F8C6C7 /* iconfont-cloudcheck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-cloudcheck.png"; sourceTree = "<group>"; };
+		CC37EFD91C5A32D200F8C6C7 /* iconfont-download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-download.png"; sourceTree = "<group>"; };
 		CC3E901A1C58AA0A0058B0F0 /* SecondVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondVC.h; sourceTree = "<group>"; };
 		CC3E901B1C58AA0A0058B0F0 /* SecondVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondVC.m; sourceTree = "<group>"; };
 		CC3E901C1C58AA0A0058B0F0 /* SecondVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondVC.xib; sourceTree = "<group>"; };
@@ -109,6 +116,7 @@
 		CC3E90451C58ED730058B0F0 /* GIFController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIFController.m; sourceTree = "<group>"; };
 		CC3E90471C58EDAE0058B0F0 /* gifCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gifCell.h; sourceTree = "<group>"; };
 		CC3E90481C58EDAE0058B0F0 /* gifCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gifCell.m; sourceTree = "<group>"; };
+		CC85FAF21C5A46F8006A2C6A /* 加载1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "加载1.gif"; sourceTree = "<group>"; };
 		CCB777021C5747E50032247F /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
 		CCB777031C5747E50032247F /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
 		CCB777041C5747E50032247F /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
@@ -238,6 +246,7 @@
 			isa = PBXGroup;
 			children = (
 				CC3E902F1C58BF0E0058B0F0 /* 1.png */,
+				CC85FAF21C5A46F8006A2C6A /* 加载1.gif */,
 				CC3E90201C58BBA00058B0F0 /* 图标 */,
 			);
 			name = "素材";
@@ -246,6 +255,9 @@
 		CC3E90201C58BBA00058B0F0 /* 图标 */ = {
 			isa = PBXGroup;
 			children = (
+				CC37EFD71C5A32D200F8C6C7 /* iconfont-bubble.png */,
+				CC37EFD81C5A32D200F8C6C7 /* iconfont-cloudcheck.png */,
+				CC37EFD91C5A32D200F8C6C7 /* iconfont-download.png */,
 				CC37EFCD1C5A162000F8C6C7 /* a.png */,
 				CC37EFCE1C5A162000F8C6C7 /* b.png */,
 				CC37EFCF1C5A162000F8C6C7 /* c.png */,
@@ -591,15 +603,19 @@
 			files = (
 				CC37EFD21C5A162000F8C6C7 /* c.png in Resources */,
 				CC3E90421C58ECE50058B0F0 /* 动态.png in Resources */,
+				CC37EFDB1C5A32D200F8C6C7 /* iconfont-cloudcheck.png in Resources */,
 				CC37EFD41C5A169500F8C6C7 /* gifCell.xib in Resources */,
 				CC3E90301C58BF0E0058B0F0 /* 1.png in Resources */,
 				CC37EFD61C5A1A5900F8C6C7 /* 视频.png in Resources */,
 				CCCDC90F1C535BA6006C946B /* Info.plist in Resources */,
+				CC85FAF51C5A46F8006A2C6A /* 加载1.gif in Resources */,
 				CCCDC8B71C530DD3006C946B /* LaunchScreen.storyboard in Resources */,
 				CC3E90271C58BC720058B0F0 /* 资讯1.png in Resources */,
 				CC37EFD01C5A162000F8C6C7 /* a.png in Resources */,
+				CC37EFDA1C5A32D200F8C6C7 /* iconfont-bubble.png in Resources */,
 				CCCDC9321C53A3F6006C946B /* NewsCell.xib in Resources */,
 				CCCDC8B41C530DD3006C946B /* Assets.xcassets in Resources */,
+				CC37EFDC1C5A32D200F8C6C7 /* iconfont-download.png in Resources */,
 				CC3E902E1C58BDBD0058B0F0 /* 设置.png in Resources */,
 				CC3E901E1C58AA0A0058B0F0 /* SecondVC.xib in Resources */,
 				CC3E902C1C58BD870058B0F0 /* 推荐1.png in Resources */,

@@ -10,6 +10,8 @@
 #import "gifCell.h"
 #import "AFNetworking.h"
 #import "Header.h"
+#import "UIImageView+WebCache.h"
+
 
 @interface GIFController ()<UITableViewDataSource,UITableViewDelegate>
 
@@ -31,6 +33,8 @@
     [super viewDidLoad];
 
     
+    
+    
     //请求数据
     [self requestNews];
     
@@ -41,11 +45,20 @@
     
     _myTable.rowHeight = 290;
     [self.view addSubview:_myTable];
+    
+
+
     // Do any additional setup after loading the view.
 }
+//没网络时候调用此方法
+-(void)error{
+    
+    UILabel *lab = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
+    lab.text = @"加载失败，请检查网络连接...";
+    lab.textAlignment = NSTextAlignmentCenter;
+    [self.view addSubview:lab];
 
-
-
+}
 #pragma mark ==================TableView  DataSource=====================
 
 
@@ -62,6 +75,7 @@
     if (cell == nil) {
         cell = [[NSBundle mainBundle]loadNibNamed:@"gifCell" owner:self options:nil][0];
     }
+    
     cell.dic = _array[indexPath.row];
     
     return cell;
@@ -93,6 +107,9 @@
         
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         NSLog(@"=======%@",error);
+        
+        [self error];
+        
     }];
     
     

@@ -24,32 +24,35 @@
                         <color key="textColor" red="0.88255208330000001" green="0.48099802180000001" blue="0.2349447992" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Idp-Wh-fBB">
-                        <rect key="frame" x="249" y="268" width="25" height="25"/>
+                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Idp-Wh-fBB">
+                        <rect key="frame" x="234" y="266" width="30" height="30"/>
                         <animations/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="25" id="DmU-8s-cPa"/>
-                            <constraint firstAttribute="height" constant="25" id="dp4-qL-LbI"/>
+                            <constraint firstAttribute="width" constant="30" id="DmU-8s-cPa"/>
+                            <constraint firstAttribute="height" constant="30" id="dp4-qL-LbI"/>
                         </constraints>
-                        <state key="normal" title="Button" image="a.png"/>
+                        <state key="normal" image="a.png"/>
+                        <state key="highlighted" image="iconfont-bubble.png"/>
                     </button>
-                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3jX-vB-qoe">
-                        <rect key="frame" x="289" y="268" width="25" height="25"/>
+                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3jX-vB-qoe">
+                        <rect key="frame" x="279" y="266" width="30" height="30"/>
                         <animations/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="25" id="IqQ-KJ-2wo"/>
-                            <constraint firstAttribute="height" constant="25" id="sIC-h7-DOe"/>
+                            <constraint firstAttribute="width" constant="30" id="IqQ-KJ-2wo"/>
+                            <constraint firstAttribute="height" constant="30" id="sIC-h7-DOe"/>
                         </constraints>
-                        <state key="normal" title="Button" image="b.png"/>
+                        <state key="normal" image="b.png"/>
+                        <state key="highlighted" image="iconfont-download.png"/>
                     </button>
-                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fjm-ue-rCw">
-                        <rect key="frame" x="329" y="268" width="25" height="25"/>
+                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fjm-ue-rCw">
+                        <rect key="frame" x="324" y="266" width="30" height="30"/>
                         <animations/>
                         <constraints>
-                            <constraint firstAttribute="height" constant="25" id="buv-1d-hnD"/>
-                            <constraint firstAttribute="width" constant="25" id="dQ9-Nx-vv4"/>
+                            <constraint firstAttribute="height" constant="30" id="buv-1d-hnD"/>
+                            <constraint firstAttribute="width" constant="30" id="dQ9-Nx-vv4"/>
                         </constraints>
-                        <state key="normal" title="Button" image="c.png"/>
+                        <state key="normal" image="c.png"/>
+                        <state key="highlighted" image="iconfont-cloudcheck.png"/>
                     </button>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RrR-xF-Gwv">
                         <rect key="frame" x="5" y="227" width="379" height="40"/>
@@ -58,7 +61,7 @@
                             <constraint firstAttribute="height" constant="40" id="mdK-23-WjM"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
@@ -94,5 +97,8 @@
         <image name="a.png" width="16" height="16"/>
         <image name="b.png" width="16" height="16"/>
         <image name="c.png" width="16" height="16"/>
+        <image name="iconfont-bubble.png" width="16" height="16"/>
+        <image name="iconfont-cloudcheck.png" width="16" height="16"/>
+        <image name="iconfont-download.png" width="16" height="16"/>
     </resources>
 </document>

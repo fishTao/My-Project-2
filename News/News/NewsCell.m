@@ -16,7 +16,8 @@
     NSString *string =dic[@"pic"];
     NSArray *arr =  [string componentsSeparatedByString:@"!"];
     NSURL *url = arr[0];
-    [self.img sd_setImageWithURL:url];
+    [self.img sd_setImageWithURL:url placeholderImage:[UIImage imageNamed:@"加载1.gif"]];
+
     self.name.text=dic[@"author"][@"name"];
     self.title.text=dic[@"title"];
 
