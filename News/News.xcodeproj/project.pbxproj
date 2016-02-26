@@ -22,13 +22,20 @@
 		CC3E902C1C58BD870058B0F0 /* 推荐1.png in Resources */ = {isa = PBXBuildFile; fileRef = CC3E902B1C58BD870058B0F0 /* 推荐1.png */; };
 		CC3E902E1C58BDBD0058B0F0 /* 设置.png in Resources */ = {isa = PBXBuildFile; fileRef = CC3E902D1C58BDBD0058B0F0 /* 设置.png */; };
 		CC3E90301C58BF0E0058B0F0 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = CC3E902F1C58BF0E0058B0F0 /* 1.png */; };
+<<<<<<< HEAD
+=======
+		CC3E903E1C58C5E40058B0F0 /* ME.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3E903D1C58C5E40058B0F0 /* ME.m */; };
+>>>>>>> 47be159bdc1a365975066ee5132a3820334df6e6
 		CC3E90421C58ECE50058B0F0 /* 动态.png in Resources */ = {isa = PBXBuildFile; fileRef = CC3E90411C58ECE50058B0F0 /* 动态.png */; };
 		CC3E90461C58ED730058B0F0 /* GIFController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3E90451C58ED730058B0F0 /* GIFController.m */; };
 		CC3E904A1C58EDAE0058B0F0 /* gifCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3E90481C58EDAE0058B0F0 /* gifCell.m */; };
 		CC85FAF51C5A46F8006A2C6A /* 加载1.gif in Resources */ = {isa = PBXBuildFile; fileRef = CC85FAF21C5A46F8006A2C6A /* 加载1.gif */; };
+<<<<<<< HEAD
 		CCAD2FDC1C7E916600435A2A /* zixunVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAD2FDB1C7E916600435A2A /* zixunVC.m */; };
 		CCAD2FE61C7ECB5600435A2A /* ZixunCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAD2FE41C7ECB5600435A2A /* ZixunCell.m */; };
 		CCAD2FE71C7ECB5600435A2A /* ZixunCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCAD2FE51C7ECB5600435A2A /* ZixunCell.xib */; };
+=======
+>>>>>>> 47be159bdc1a365975066ee5132a3820334df6e6
 		CCB777231C5747E50032247F /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB777031C5747E50032247F /* MKAnnotationView+WebCache.m */; };
 		CCB777241C5747E50032247F /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB777051C5747E50032247F /* NSData+ImageContentType.m */; };
 		CCB777251C5747E50032247F /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB777071C5747E50032247F /* SDImageCache.m */; };
@@ -111,17 +118,25 @@
 		CC3E902B1C58BD870058B0F0 /* 推荐1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "推荐1.png"; sourceTree = "<group>"; };
 		CC3E902D1C58BDBD0058B0F0 /* 设置.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "设置.png"; sourceTree = "<group>"; };
 		CC3E902F1C58BF0E0058B0F0 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+<<<<<<< HEAD
+=======
+		CC3E903C1C58C5E40058B0F0 /* ME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ME.h; sourceTree = "<group>"; };
+		CC3E903D1C58C5E40058B0F0 /* ME.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ME.m; sourceTree = "<group>"; };
+>>>>>>> 47be159bdc1a365975066ee5132a3820334df6e6
 		CC3E90411C58ECE50058B0F0 /* 动态.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "动态.png"; sourceTree = "<group>"; };
 		CC3E90441C58ED730058B0F0 /* GIFController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIFController.h; sourceTree = "<group>"; };
 		CC3E90451C58ED730058B0F0 /* GIFController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIFController.m; sourceTree = "<group>"; };
 		CC3E90471C58EDAE0058B0F0 /* gifCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gifCell.h; sourceTree = "<group>"; };
 		CC3E90481C58EDAE0058B0F0 /* gifCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gifCell.m; sourceTree = "<group>"; };
 		CC85FAF21C5A46F8006A2C6A /* 加载1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "加载1.gif"; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		CCAD2FDA1C7E916600435A2A /* zixunVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zixunVC.h; sourceTree = "<group>"; };
 		CCAD2FDB1C7E916600435A2A /* zixunVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zixunVC.m; sourceTree = "<group>"; };
 		CCAD2FE31C7ECB5600435A2A /* ZixunCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZixunCell.h; path = ../ZixunCell.h; sourceTree = "<group>"; };
 		CCAD2FE41C7ECB5600435A2A /* ZixunCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZixunCell.m; path = ../ZixunCell.m; sourceTree = "<group>"; };
 		CCAD2FE51C7ECB5600435A2A /* ZixunCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ZixunCell.xib; path = ../ZixunCell.xib; sourceTree = "<group>"; };
+=======
+>>>>>>> 47be159bdc1a365975066ee5132a3820334df6e6
 		CCB777021C5747E50032247F /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
 		CCB777031C5747E50032247F /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
 		CCB777041C5747E50032247F /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
@@ -294,11 +309,14 @@
 		CC3E90221C58BBD40058B0F0 /* 每日资讯 */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				CCAD2FDA1C7E916600435A2A /* zixunVC.h */,
 				CCAD2FDB1C7E916600435A2A /* zixunVC.m */,
 				CCAD2FE31C7ECB5600435A2A /* ZixunCell.h */,
 				CCAD2FE41C7ECB5600435A2A /* ZixunCell.m */,
 				CCAD2FE51C7ECB5600435A2A /* ZixunCell.xib */,
+=======
+>>>>>>> 47be159bdc1a365975066ee5132a3820334df6e6
 			);
 			name = "每日资讯";
 			sourceTree = "<group>";
@@ -437,6 +455,11 @@
 			isa = PBXGroup;
 			children = (
 				CCCDC8B01C530DD3006C946B /* Main.storyboard */,
+<<<<<<< HEAD
+=======
+				CC3E903C1C58C5E40058B0F0 /* ME.h */,
+				CC3E903D1C58C5E40058B0F0 /* ME.m */,
+>>>>>>> 47be159bdc1a365975066ee5132a3820334df6e6
 			);
 			name = view;
 			sourceTree = "<group>";
@@ -627,7 +650,10 @@
 				CC3E902E1C58BDBD0058B0F0 /* 设置.png in Resources */,
 				CC3E901E1C58AA0A0058B0F0 /* SecondVC.xib in Resources */,
 				CC3E902C1C58BD870058B0F0 /* 推荐1.png in Resources */,
+<<<<<<< HEAD
 				CCAD2FE71C7ECB5600435A2A /* ZixunCell.xib in Resources */,
+=======
+>>>>>>> 47be159bdc1a365975066ee5132a3820334df6e6
 				CC37EFD11C5A162000F8C6C7 /* b.png in Resources */,
 				CCCDC8B21C530DD3006C946B /* Main.storyboard in Resources */,
 				CC3E90281C58BC720058B0F0 /* 资讯2.png in Resources */,
@@ -684,14 +710,22 @@
 				CCCDC8F31C532FC6006C946B /* Modes.m in Sources */,
 				CCB7772E1C5747E50032247F /* UIImage+MultiFormat.m in Sources */,
 				CCB777291C5747E50032247F /* SDWebImageDownloaderOperation.m in Sources */,
+<<<<<<< HEAD
 				CCCDC9311C53A3F6006C946B /* NewsCell.m in Sources */,
 				CCAD2FDC1C7E916600435A2A /* zixunVC.m in Sources */,
+=======
+				CC3E903E1C58C5E40058B0F0 /* ME.m in Sources */,
+				CCCDC9311C53A3F6006C946B /* NewsCell.m in Sources */,
+>>>>>>> 47be159bdc1a365975066ee5132a3820334df6e6
 				CCCDC9121C535BA6006C946B /* MASConstraintMaker.m in Sources */,
 				CCCDC9191C535BA6006C946B /* ViewController+MASAdditions.m in Sources */,
 				CCB777271C5747E50032247F /* SDWebImageDecoder.m in Sources */,
 				CCB7772F1C5747E50032247F /* UIImage+WebP.m in Sources */,
 				CCB777261C5747E50032247F /* SDWebImageCompat.m in Sources */,
+<<<<<<< HEAD
 				CCAD2FE61C7ECB5600435A2A /* ZixunCell.m in Sources */,
+=======
+>>>>>>> 47be159bdc1a365975066ee5132a3820334df6e6
 				CCCDC9151C535BA6006C946B /* MASViewConstraint.m in Sources */,
 				CCCDC8DF1C531E36006C946B /* mainTabBarVC.m in Sources */,
 				CCB777281C5747E50032247F /* SDWebImageDownloader.m in Sources */,
