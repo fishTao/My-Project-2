@@ -28,8 +28,6 @@
                                 <connections>
                                     <action selector="Add:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5u9-at-q31"/>
                                     <action selector="insert" destination="BYZ-38-t0r" eventType="touchUpInside" id="MSW-Cp-KPS"/>
-                                    <action selector="inside" destination="BYZ-38-t0r" eventType="touchUpInside" id="1We-Bz-mXR"/>
-                                    <action selector="inside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xXL-pW-yLM"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="1998" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oly-5c-VuX">
