@@ -20,11 +20,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-//    //打开数据库
-//    NSString *filename = [NSSearchPathForDirectoriesInDomains(NSUserDomainMask, YES), )]
-//    
-//    
-//    
+    //打开数据库
+   NSString *filename = [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject]stringByAppendingString:@"shops.sqlite"];
+    
+    
+    
+//
 //    // Do any additional setup after loading the view, typically from a nib.
 }
 
